@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Earlham Prize</title>
+    <meta name="generator" content="Bootply" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="styles/bootstrap.min.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+          <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <style type="text/css"></style>
+</head>
+
+<body>
+    <div class="navbar navbar-inverse" style="background-color: #861F41;">
+
+        <div>
+            <img src="images/header.jpg" width="100%" />
+        </div>
+
+
+        <div class="container" style="background-color: #861F41;">
+            <div class="navbar-header">
+                <a class="navbar-brand" style="text-color: #fff;"></a>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="text-center">
+            <h1>SEARCH FIELD</h1>
+            <p class="lead">
+                <form action="db/search.php" method="post">
+                    Name
+                    <input type="text" name="Name" placeholder="Name" class="form-control">
+                    <br> Email
+                    <input type="text" name="Email" placeholder="Email" class="form-control">
+                    <br>
+                    <!--Year in College<br>
+<select class="form-control">
+<option selected disabled>Year in college</option>
+<option value="1">First Year</option>
+<option value="2">Second Year</option>
+<option value="3">Third year</option>
+<option value="4">Senior</option>
+<option value="5">Alumni</option>
+</select>
+<br>
+-->
+                    College/Univeristy
+                    <br>
+                    <select class="form-control" name="College">
+                        <option selected disabled>Choose an ínstitution</option>
+                        <option value="Earlham College">Earlham College</option>
+                        <option value="Earlham School of Religion">Earlham School of Religion</option>
+                        <option value="Earlham MAT students">Earlham MAT students</option>
+                        <option value="IU East">IU East</option>
+                        <option value="Ivy Tech">Ivy Tech</option>
+                        <option value="Purdue Polytechnic">Purdue Polytechnic</option>
+                    </select>
+                    <br>
+                    <!--
+Major<input type="text" name="Major" placeholder="Major" class="form-control">
+<br>
+-->
+                    <button type="submit" class="btn btn-default">Search</button>
+                </form>
+            </p>
+        </div>
+    </div>
+
+    <script type='text/javascript' src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script type='text/javascript' src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
